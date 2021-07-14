@@ -31,10 +31,24 @@
     <form id="searchForm">
 
         <!--Create your form here!-->
+        <p>Enter Search Term:</p>
+        <input type="text" id="text" name="q"><br />
+        
+        <p>Choose Your Search Engine:</p>
 
-
-
-
+        <input type="radio" id="google" name="engine" value="google" />
+        <label for="google">Google</label>
+        <br />
+        <input type="radio" id="duckduckgo" name="engine" value="duckduckgo" />
+        <label for="duckduckgo">DuckDuckGo</label>
+        <br />
+        <input type="radio" id="bing" name="engine" value="bing" />
+        <label for="bing">Bing</label>
+        <br />
+        <input type="radio" id="ask" name="engine" value="ask"  />
+        <label for="ask">Ask</label>
+        <br />
+        <input name="engine" type="submit" value="Go!"/>
     </form>
 </body>
 
